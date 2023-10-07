@@ -844,9 +844,9 @@ footer p {
 }
 
 .history .desc {
-        flex-basis: calc(50% - 10px); /* Mengatur lebar setiap kolom */
-        margin-bottom: 20px; /* Mengatur jarak antar baris */
-        box-sizing: border-box; /* Memastikan padding dan border tidak menambah lebar elemen */
+        flex-basis: calc(50% - 10px);
+        margin-bottom: 20px;
+        box-sizing: border-box;
 }
 
 .history .desc ul {
@@ -970,7 +970,7 @@ footer p {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: -1000px; /* Adjust this value based on your header height */
+        top: -1000px;
         right: 0;
         left: 0;
         background-color: #272640;
@@ -999,11 +999,11 @@ footer p {
     }
 
     .logo {
-        margin-left: 20px; /* Adjust margin */
+        margin-left: 20px;
     }
 
     header.sticky .logo {
-        margin-left: 10px; /* Adjust margin */
+        margin-left: 10px;
     }
 
     .home {
